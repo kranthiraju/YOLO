@@ -1,0 +1,38 @@
+.cart
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    min-height: 100vh;
+    background-color: rgba(215, 250, 248, 0.781);
+    margin-left: 15%;
+    gap: 2rem;
+}
+.cart .group
+{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10rem;
+}
+.cart .group button
+{
+    border: none;
+    outline: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 0.8rem;
+    cursor: pointer;
+    background-color: rgba(138, 163, 155, 0.61);
+    border-radius: 0.2rem;
+    transition: all 0.5s;
+}
+.cart .group button:hover
+{
+    box-shadow: 0rem 0rem 0.5rem rgba(0, 0, 0, 0.397);
+}

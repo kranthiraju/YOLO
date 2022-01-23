@@ -1,0 +1,67 @@
+.smallcart
+{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    background-color: azure;
+    box-shadow: 0rem 0rem 0.3rem rgba(0, 0, 0, 0.39);
+    width: 60%;
+    height: auto;
+    gap: 5rem;
+}
+.smallcart .l_small
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+.smallcart .l_small img
+{
+    width: 10rem;
+    height: 8rem;
+}
+.smallcart .l_small .buttons
+{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+.smallcart .l_small .buttons button
+{
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 0.4rem;
+    cursor: pointer;
+}
+.smallcart .r_small button
+{
+    position: relative;
+    width: 20rem;
+    background-color: rgb(201, 130, 0);
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 0.2rem;
+    cursor: pointer;
+    transition: all 0.5s;
+    outline: none;
+}
+.smallcart .r_small button:hover
+{
+    box-shadow: 0rem 0rem 0.8rem rgba(0, 0, 0, 0.4);
+}
